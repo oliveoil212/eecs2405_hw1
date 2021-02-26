@@ -1,5 +1,4 @@
 # eecs2405_hw1
-[toc]
 ## 功能
 In this assignment, you need to write programs to analyze [open-source auto weather station data from Central Weather Bureau (CWB)](https://ci.taiwan.gov.tw/dsp/en/environmental_cwb_auto_en.aspx)
 ![](https://i.imgur.com/gH0ls2f.png)
