@@ -20,7 +20,6 @@ with open(cwb_filename) as csvfile:
 
 # Part. 3
 #=======================================
-# Remove the data whose value of the WDSD (wind speed) column is '-99.000' or '-999.000'.
 # filter config
 targets = ["C0A880", "C0F9A0", "C0G640","C0R190", "C0X260"]
 ignored = ['-99.000','-999.000']
