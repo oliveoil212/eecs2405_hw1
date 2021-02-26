@@ -10,9 +10,6 @@ git clone https://github.com/oliveoil212/eecs2405_hw1.git
 **run**
 ```shell=
 cd eecs2405_hw1/
-```
-cd eecs2405_hw1/
-```shell=
 python  ./hw1.py
 ```
 ##  what are the results
