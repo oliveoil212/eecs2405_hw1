@@ -36,11 +36,12 @@ targets.sort()
 result =[]
 for target in targets:
    target_WDSD_data = targets_data.get(target)
-   if target_WDSD_data != None:
-      max_range = str("{:.1f}".format(max(target_WDSD_data) - min(target_WDSD_data)))
-   else:
+    if target_WDSD_data == None:
       max_range = 'None'
-   result.append([target, max_range])
+   elif len(target_WDSD_data) < 2:
+      max_range = 'None'
+   else:
+      max_range = str("{:.1f}".format(max(target_WDSD_data) - min(target_WDSD_data)))
 #=======================================
 
 # Part. 4
