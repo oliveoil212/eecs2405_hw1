@@ -8,7 +8,10 @@ In this assignment, you need to write programs to analyze [open-source auto weat
 git clone https://github.com/oliveoil212/eecs2405_hw1.git
 ```
 **run**
-the under this repo directory
+```shell=
+cd eecs2405_hw1/
+```
+cd eecs2405_hw1/
 ```shell=
 python  ./hw1.py
 ```
